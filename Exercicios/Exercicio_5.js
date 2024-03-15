@@ -8,5 +8,5 @@ function inverterString(str) {
     return strInvertida;
 }
 
-let str = 'Olá Recrutador!'; // Novamente utilizei uma variável como a entrada.
+let str = 'Olá, Pessoal!!!'; // Novamente utilizei uma variável como a entrada.
 console.log(inverterString(str));
