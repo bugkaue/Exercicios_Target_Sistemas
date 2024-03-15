@@ -1,21 +1,21 @@
 // Exercicio 2
 
-function fibonacci(num) {
-    if (num <= 0) return false;
+function fibonacci(numero) {
+    if (numero <= 0) return false;
 
     let a = 0;
     let b = 1;
-    while (b < num) {
+    while (b < numero) {
         let temp = a;
         a = b;
         b = temp + b;
     }
-    return b === num;
+    return b === numero;
 }
 
-let num = 55; // Utilizei essa variável como a entrada.
-if (fibonacci(num)) {
-    console.log(`O número ${num} pertence à sequência de Fibonacci.`);
+let numero = 55; // Utilizei essa variável como a entrada.
+if (fibonacci(numero)) {
+    console.log(`O número ${numero} pertence à sequência de Fibonacci.`);
 } else {
-    console.log(`O número ${num} não pertence à sequência de Fibonacci.`);
+    console.log(`O número ${numero} não pertence à sequência de Fibonacci.`);
 }
